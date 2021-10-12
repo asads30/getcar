@@ -1,0 +1,35 @@
+<template>
+  <div id="app">
+    <Navbar />
+    <router-view/>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+    Footer
+  }
+}
+</script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  a{
+    text-decoration: none;
+  }
+  @media(min-width: 1200px){
+    .container{
+      max-width: 1170px !important;
+    }
+  }
+  #app{
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>

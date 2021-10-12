@@ -1,0 +1,132 @@
+.owl-theme .owl-nav{
+    margin-top: 0 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 4px;
+    height: 4px;
+    margin: 0 2px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #FF525D;
+}
+
+.vue-star-rating{
+    display: flex;
+    align-items: center;
+}
+
+.vue-star-rating-rating-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: initial;
+    color: #363A47;
+    height: 14px;
+}
+
+.popover{
+    background: #393E48;
+    border-radius: 12px;
+    border: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+}
+
+.popover-body{
+    padding: 9px;
+    color: #f2f2f2;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, .bs-popover-top>.popover-arrow::after{
+    border-top-color: #393E48;
+}
+
+.search-item{
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #2D9CDB;
+    position: relative;
+}
+
+.search-item #autosuggest__input{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border: 0;
+    box-shadow: 0px 2px 40px rgba(114, 114, 114, 0.08);
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    background: #fff url(../images/loc1.svg) no-repeat;
+    background-position: center right;
+    height: 48px;
+    padding: 0 15px;
+}
+
+#autosuggest__input:focus{
+    outline: 0 !important;
+}
+
+.autosuggest__results{
+    padding: 10px 0 5px;
+}
+
+.search-item #autosuggest__input:focus{
+    background: #fff url(../images/loc2.svg) no-repeat;
+    background-position: center right;
+}
+
+.autosuggest__results>ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.autosuggest__results>ul>li{
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.autosuggest__results>ul>li div{
+    font-size: 14px;
+}
+
+.search-item #autosuggest>div:first-child{
+    padding-right: 15px;
+}
+
+.autosuggest__results-container{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    z-index: 5;
+    top: 90%;
+}
+
+.datapicker-input{
+    box-shadow: 0px 2px 40px rgba(114, 114, 114, 0.08);
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    padding: 0 16px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+
+.calendar{
+    background: #fff url(../images/calendar.svg) no-repeat;
+    background-position: right center;
+}
+
+.time{
+    background: #fff url(../images/time.svg) no-repeat;
+    background-position: right center;
+}
